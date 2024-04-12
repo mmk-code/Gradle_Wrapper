@@ -1,20 +1,19 @@
-# Gradle_Wrapper
-Gradle Wrapper to create Java and Kotlin projects using Gradle as build tool.
-
+# Gradle Wrapper
+Gradle Wrapper to create Java and Kotlin projects using Gradle as build tool. In this repo the Gradle Wrapper (gradlew commands and gradle dirctory) was extracted from other Gradle project and upgraded to latest Gradle version. This repo will maintain this whenever is necessary to upgrade.
 
 Clone the repo and provide proper name for the project
-git clone https://github.com/mmk-code/Gradle_Wrapper.git [project_name]
-
+```console
+git clone https://github.com/mmk-code/Gradle_Wrapper.git [input_project_name]
+```
 Move to project directory
-cd [project_name]
-
-
+```console
+cd [input_project_name]
+```
 Create new Gradle Project using the following command 
-
+```console
 .\gradlew init
-
+```
 Upgrade Gradle Wrapper if required using the following command
-
-.\gradlew wrapper --gradle-version 8.7 --distribution-type bin
-
-
+```console
+.\gradlew wrapper --gradle-version [input_version] --distribution-type bin
+```
