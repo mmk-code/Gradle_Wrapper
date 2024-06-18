@@ -19,3 +19,11 @@ Upgrade Gradle Wrapper if required using the following command
 ```console
 .\gradlew wrapper --gradle-version [input_version] --distribution-type bin
 ```
+For example to upgrade Gradle Wrapper to version 8.8 use the following command
+```console
+.\gradlew wrapper --gradle-version 8.8 --distribution-type bin
+```
+To upgrade Gradle Wrapper to latest use the following command
+```console
+.\gradlew wrapper --gradle-version latest --distribution-type bin
+```
